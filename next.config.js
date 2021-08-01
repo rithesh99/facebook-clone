@@ -6,5 +6,6 @@ module.exports = {
       "platform-lookaside.fbsbx.com",
       "firebasestorage.googleapis.com"
     ]
-  }
+  },
+  target: "experimental-serverless-trace" 
 }
