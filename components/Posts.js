@@ -26,7 +26,7 @@ function Posts() {
                     <div className="flex flex-col" key={i}>
                         <div className="p-5 bg-white mt-5 rounded-t-2xl shadow-sm">
                             <div className="flex items-center space-x-2">
-                                <img 
+                                <Image 
                                   className="rounded-full"
                                   src={post.image}
                                   width="40"

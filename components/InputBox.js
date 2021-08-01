@@ -95,7 +95,7 @@ function InputBox() {
             onClick={() => setImageToPost(null)}
             className='flex flex-col filter hover:brightness-110 transition duration-150 transform hover: scale-105 cursor-pointer'
           >
-            <img src={imageToPost} className='h-10 object-contain' alt='' />
+            <Image src={imageToPost} className='h-10 object-contain' alt='' height="10" width="10" />
             <p className='text-xs text-red-500 text-center'>Remove</p>
           </div>
         )}
