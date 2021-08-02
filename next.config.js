@@ -7,5 +7,5 @@ module.exports = {
       "firebasestorage.googleapis.com"
     ]
   },
-  target: "experimental-serverless-trace" 
+  target: "experimental-serverless-trace"
 }

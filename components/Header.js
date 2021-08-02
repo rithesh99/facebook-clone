@@ -53,16 +53,16 @@ function Header() {
 
       {/* RIGTH */}
       <div className='flex items-center sm:space-x-2 justify-end'>
-        <Image 
-        onClick={signOut}
-            className="rounded-full cursor-pointer"
-            src={session ? session.user.image : ""}
-            alt="user pic" 
-            width="40"
-            height="40"
-            layout="fixed"
-            />
-        <p className='whitespace-nowrap font-semibold pr-3'>{session.user.name}</p>
+        <Image
+          // onClick={signOut}
+          className="rounded-full cursor-pointer"
+          src="https://links.papareact.com/kxk"
+          alt="user pic"
+          width="40"
+          height="40"
+          layout="fixed"
+        />
+        <p className='whitespace-nowrap font-semibold pr-3'>Facebook User</p>
         <ViewGridIcon className='icon' />
         <ChatIcon className='icon' />
         <BellIcon className='icon' />

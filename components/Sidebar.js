@@ -31,7 +31,7 @@ function Sidebar() {
 
   return (
     <div className='p-2 mt-5 max-w-[600px] xl:min-w-[300px]'>
-      <SidebarRow src={session.user.image} title={session.user.name} />
+      <SidebarRow src="https://links.papareact.com/kxk" title="Facebook User" />
       <SidebarRow Icon={UsersIcon} title='Friends' />
       <SidebarRow Icon={UserGroupIcon} title='Groups' />
       <SidebarRow Icon={ShoppingBagIcon} title='Marketplace' />

@@ -21,9 +21,9 @@ function InputBox() {
     db.collection("posts")
       .add({
         message: inputRef.current.value,
-        name: session.user.name,
-        email: session.user.email,
-        image: session.user.image,
+        name: "Facebook User",
+        email: "facebook@gmail.com",
+        image: "https://links.papareact.com/kxk",
         timestamp: firebase.firestore.FieldValue.serverTimestamp(),
       })
       .then((doc) => {
@@ -73,7 +73,7 @@ function InputBox() {
       <div className='flex space-x-4 p-4 items-center'>
         <Image
           className='rounded-full'
-          src={session.user.image}
+          src="https://links.papareact.com/kxk"
           width={40}
           height={40}
           layout='fixed'
@@ -83,7 +83,7 @@ function InputBox() {
           <input
             ref={inputRef}
             type='text'
-            placeholder={`What's on your mind, ${session.user.name}?`}
+            placeholder={`What's on your mind, User?`}
             className='rounded-full h-12 bg-gray-100 flex-grow px-5 focus:outline-none'
           />
           <button hidden type='submit' onClick={addPost}>
